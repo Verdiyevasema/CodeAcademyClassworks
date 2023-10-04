@@ -1,0 +1,36 @@
+.head {
+  background-image: url("./harry-potter-desktop-vtho1d6dbpcfzv5v.jpg");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gence {
+  color: azure;
+}
+
+.ad {
+  color: red;
+}
+.name {
+  color: yellowgreen;
+}
+#da {
+  color: blue;
+}
+#sa {
+  color: orangered;
+}
+#j {
+  color: yellowgreen;
+}
+#f {
+  color: blue;
+}
+.n {
+  color: orangered;
+}
+
+#task {
+    border-radius: 15px;
+}
