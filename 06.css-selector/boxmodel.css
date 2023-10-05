@@ -1,0 +1,48 @@
+#box {
+    border: 2px solid greenyellow;
+    width: 20vw;
+    padding: 20px;
+}
+#box img{
+    width: 100%;
+}
+
+.text-box{
+    border: 3px solid grey; 
+    padding: 20px 30px;
+}
+#boxs{
+    border:3px solid grey;
+    width: 400px;
+    margin: 15px;
+}
+#boxss{
+    border:2px solid rgb(0, 183, 255);
+    background-color: yellowgreen;
+}
+.text{
+    border:2px solid red;
+    padding: 50px ;
+    background-color: yellow;
+    margin: 30px;
+}
+
+#contentSection {
+    
+    border: 1px solid black;
+}
+
+#model{
+    border: 2px solid grey;
+    width: 17vw;
+}
+
+#with{
+    border: 2px solid grey;
+    width: 90vw;
+}
+
+.margin{
+    border: 1px solid black;
+
+}
