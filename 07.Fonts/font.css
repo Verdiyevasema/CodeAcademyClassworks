@@ -1,0 +1,54 @@
+.plum{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 3px -3px 3px red;
+}
+.roll{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(136, 52, 214);
+    font-size: 30px;
+}
+.drops{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 25px;
+}
+.candy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 25px;
+}
+.cake{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 25px;
+}
+.wafer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    font-size: 25px;
+}
+.sweet{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(115, 10, 212);
+    font-size: 25px;
+}
+.cotton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 25px;
+}
+.elit{
+    font-weight: bold;
+}
+.consec{
+    font-weight: bold;
+}
+.ipsum{
+    font-weight: bold;
+}
+.adips{
+    font-weight: bold;
+}
