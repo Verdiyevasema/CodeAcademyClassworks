@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.adress {
+    display: flex;
+    color: green;
+    padding: 10px 0;
+}
+
+.left {
+    /* border: 1px solid; */
+}
+.rigth {
+    /* border: 1px solid red; */
+}
+.grey {
+    background-color: rgb(231, 231, 231);
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    background-color: rgb(29, 25, 25);
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.test {
+    
+    justify-content: end;
+    align-items: end;
+}
+.fa-brands {
+    color: white;
+    padding:20px 9px;
+}
