@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   height: 300vh;
+}
+
+.img {
+    height: 70vh;
+    background-image: url("./img.jfif");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    columns: blue;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    color: white;
+}
+
+.container ul li {
+    margin: 20px 0;
+}
+
+.color {
+    height: 70vh;
+    background-color: aqua;
+}
