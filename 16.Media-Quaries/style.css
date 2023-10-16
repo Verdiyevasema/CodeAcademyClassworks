@@ -92,5 +92,10 @@ header {
     text-align: center;
 }
 
+.footer {
+  background-color: green;
+  padding: 4rem 0;
+}
+
 
 
