@@ -1,0 +1,28 @@
+header {
+    background-color: $sema-color;
+    .container {
+        .header{
+            @include flex (space-between);
+            img {
+                width: 130px;
+            }
+            nav {
+                ul {
+                    display: flex;
+                    gap: 40px;
+                    li {
+                        a {
+                            color: rgb(204, 130, 238);
+                            text-decoration: none;
+                            font-size: 20px;
+                            &:hover {
+                                color: greenyellow;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+ }
