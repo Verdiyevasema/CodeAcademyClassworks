@@ -1,0 +1,12 @@
+header {
+    .container {
+        .header {
+            @include flexbox(space-between);
+
+            ul {
+                    @include flexbox (space-between);
+                    gap: 50px;
+                }
+            }
+        }
+    }
