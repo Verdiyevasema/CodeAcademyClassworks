@@ -1,0 +1,45 @@
+.common {
+  background-color: $fro-color;
+  width: 100%;
+  height: 300px;
+  .banner {
+    .text {
+      @include flexbox();
+      flex-direction: column;
+      margin: 90px;
+
+      h1 {
+        color: $white-color;
+      }
+      p {
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.btn-contact {
+  @extend %button;
+}
+
+.categories {
+  .texts {
+    @include flexbox();
+    gap: 3rem;
+
+    a {
+      color: grey;
+      margin-top: 50px;
+      text-align: center;
+    }
+  }
+  .img-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+.proper-text {
+  height: 10vh;
+}

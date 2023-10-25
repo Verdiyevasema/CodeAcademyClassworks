@@ -1,0 +1,17 @@
+header {
+  .header {
+    @include flexbox(space-between);
+    padding-top: 20px;
+    nav {
+      ul {
+        display: flex;
+        gap: 2rem;
+        li {
+          a {
+            color: $white-color;
+          }
+        }
+      }
+    }
+  }
+}
