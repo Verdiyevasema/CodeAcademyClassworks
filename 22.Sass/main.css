@@ -55,6 +55,7 @@ table {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0.6%;
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -62,12 +63,33 @@ table {
   }
 }
 
+.sectionbanner .learn, .sectionbanner .quate {
+  border-radius: 30px;
+  cursor: pointer;
+  width: 182px;
+  height: 48px;
+  padding: 10px, 36px, 10px, 36px;
+  background-color: transparent;
+  color: #784F33;
+  gap: 10px;
+}
+
 h1 {
   font-size: 58px;
+  font-weight: 600;
+  line-height: 30;
 }
 
 h3 {
   font-size: 24px;
+  font-weight: 500;
+  line-height: 30;
+}
+
+p {
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -91,5 +113,35 @@ header .container .header ul {
 }
 
 .background-image {
-  background-image: url();
+  background-image: url("../../images/cover.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sectionbanner .containerbanner {
+  display: flex;
+  flex-direction: column;
+}
+.sectionbanner .h1banner {
+  margin-top: 10%;
+  margin-left: 13%;
+}
+.sectionbanner .h1banner h1 {
+  color: #252B42;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 60px;
+  letter-spacing: 0.5;
+}
+.sectionbanner .h4banner {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.sectionbanner .h4banner h4 {
+  color: #252B42;
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 30px;
+  letter-spacing: 0.5;
 }/*# sourceMappingURL=main.css.map */
